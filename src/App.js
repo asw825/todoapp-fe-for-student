@@ -73,7 +73,7 @@ function App() {
         <Col xs={12} sm={10}>
           <input
             type="text"
-            placeholder="할일을 입력하세요!!!!"
+            placeholder="할일을 입력하세요"
             className="input-box"
             value={todoValue}
             onChange={(e) => setTodoValue(e.target.value)}
